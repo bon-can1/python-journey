@@ -35,6 +35,11 @@ aa = 2
 ab = 3
 ac = aa ** ab # the symbol for exponentiation or power of a number "**"
 print("result: ", ac)
+# modulus
+ad = 10
+ae = 3
+af = ad % ae # the symbol "%" is used for modulus
+print("result for modulus: ", af)
 
 # floor division
 ad = 24
