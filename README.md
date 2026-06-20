@@ -31,7 +31,6 @@ Every commit represents progress.
 * Write code daily
 * Build useful projects
 * Develop problem-solving skills
-* Use Python in cybersecurity and automation
 * Grow from beginner to professional developer
 
 ##  Progress
