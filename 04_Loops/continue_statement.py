@@ -21,3 +21,16 @@ for i in range(0, n):
         continue
     else:
         print(i, end=" ")
+
+
+###########################################################
+
+
+# Vowel Remover
+word = input("\nEnter word: ")
+
+for letter in word:
+    if letter in "aeiou":
+        continue
+    else:
+        print(letter)
