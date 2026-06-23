@@ -33,7 +33,7 @@ print(words)
 
 ############################################################
 
-# Mini Project 1: Word Counter
+# Word Counter
 # Count how many words the user typed.
 
 sentence = input("Enter a sentence: ")
@@ -43,7 +43,7 @@ print("Words:", words)
 
 ############################################################
 
-# Mini Project 2: Palindrome Checker
+# Palindrome Checker
 # Check if a word reads the same forward and backward (ignore case and spaces).
 
 word = input("Enter a word: ")
