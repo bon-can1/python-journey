@@ -62,3 +62,24 @@ location = (
 print("\nSaved GPS Location")
 print(location)
 print("Data Type:", type(location))
+
+
+# ==========================================================
+# MINI PROJECT 2
+# RGB COLOR STORAGE
+# ==========================================================
+
+# Store a fixed RGB color using a tuple.
+# RGB values must stay between 0 and 255.
+
+red = int(input("Enter red value (0-255): "))
+green = int(input("Enter green value (0-255): "))
+blue = int(input("Enter blue value (0-255): "))
+
+color = (red, green, blue)
+
+print("\nSaved RGB Color")
+print("Red:", color[0])
+print("Green:", color[1])
+print("Blue:", color[2])
+print("Full Tuple:", color)

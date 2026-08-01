@@ -60,3 +60,31 @@ if 0 <= index < len(products):
 else:
 
     print("Invalid Product Number")
+
+
+# ==========================================================
+# MINI PROJECT 2
+# STUDENT MARK VIEWER
+# ==========================================================
+
+# Access marks from a fixed student tuple using positive indexing.
+
+student = (
+    "Kiran",
+    19,
+    85,
+    90,
+    78
+)
+
+print("Student Name:", student[0])
+print("Age:", student[1])
+print("Math:", student[2])
+print("Science:", student[3])
+print("English:", student[4])
+
+total = student[2] + student[3] + student[4]
+average = total / 3
+
+print("Total Marks:", total)
+print("Average:", average)
