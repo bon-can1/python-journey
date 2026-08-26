@@ -111,7 +111,8 @@ New Repo
 │   ├── encapsulation.py         # Protect internal object data.
 │   ├── abstraction.py           # Hide unnecessary implementation details.
 │   └── static_class_methods.py  # Learn special class-level methods.
-│
+
+Another Repo from here
 ├── 14_Modules_And_Packages/
 │   ├── import_module.py         # Import existing modules.
 │   ├── custom_module.py         # Create your own reusable modules.
@@ -158,7 +159,7 @@ New Repo
 │   ├── bulk_renamer.py         # Rename many files at once.
 │   ├── report_generator.py     # Create automated reports.
 │   └── automation_project.py   # Combine multiple automation concepts.
-│
+Another Repo
 └── 19_Projects/
     ├── calculator.py           # Build a basic calculator application.
     ├── quiz_app.py             # Create an interactive quiz program.
