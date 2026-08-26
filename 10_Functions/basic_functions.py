@@ -28,7 +28,7 @@ def greet_person(name):
     print("Hello,", name)
 
 greet_person("Arun")
-greet_person("Priya")
+greet_person("Iya")
 
 
 # example 4  function with multiple parameters
