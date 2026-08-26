@@ -1,0 +1,171 @@
+python-journey/
+│
+├── 01_Python_Fundamentals/
+│   ├── hello_world.py            # Your first Python program using print().
+│   ├── comments.py               # Learn how to document code using comments.
+│   ├── variables.py              # Store and manage data using variables.
+│   ├── data_types.py             # Understand int, float, str, and bool.
+│   ├── type_conversion.py        # Convert data between different types.
+│   ├── user_input.py             # Accept input from users during execution.
+│   └── output_formatting.py      # Display output using f-strings and formatting.
+│
+├── 02_Operators/
+│   ├── arithmetic.py             # Perform mathematical calculations.
+│   ├── comparison.py             # Compare values and return True or False.
+│   ├── assignment.py             # Assign and update variable values.
+│   ├── logical.py                # Combine conditions using and, or, not.
+│   ├── identity.py              # Check whether objects share memory.
+│   └── membership.py            # Test if values exist in collections.
+│
+├── 03_Control_Flow/
+│   ├── if_statement.py          # Execute code when a condition is true.
+│   ├── if_else.py               # Choose between two execution paths.
+│   ├── elif_statement.py        # Handle multiple conditions efficiently.
+│   ├── nested_if.py             # Place conditions inside conditions.
+│   └── match_case.py            # Modern alternative to multiple if statements.
+│
+├── 04_Loops/
+│   ├── for_loop.py              # Repeat actions over a sequence.
+│   ├── while_loop.py            # Repeat while a condition remains true.
+│   ├── range_function.py        # Generate sequences of numbers.
+│   ├── break_statement.py       # Exit a loop early.
+│   ├── continue_statement.py    # Skip the current iteration.
+│   ├── pass_statement.py        # Placeholder for future code.
+│   └── nested_loops.py          # Use loops inside other loops.
+│
+├── 05_Strings/
+│   ├── indexing.py              # Access individual characters.
+│   ├── slicing.py               # Extract portions of strings.
+│   ├── string_methods.py        # Use built-in string functions.
+│   ├── replace_method.py        # Replace text within strings.
+│   ├── split_method.py          # Split strings into lists.
+│   ├── join_method.py           # Combine list items into strings.
+│   └── formatting.py            # Format strings for readable output.
+│
+├── 06_Lists/
+│   ├── create_list.py           # Create and store collections of data.
+│   ├── access_elements.py       # Access list items using indexes.
+│   ├── append_insert.py         # Add new elements to lists.
+│   ├── remove_pop.py            # Remove elements from lists.
+│   ├── sort_reverse.py          # Organize and reverse list order.
+│   ├── list_iteration.py        # Loop through list elements.
+│   └── list_comprehension.py    # Create lists efficiently in one line.
+│
+├── 07_Tuples/
+│   ├── tuple_creation.py        # Create immutable collections.
+│   ├── tuple_access.py          # Access tuple elements.
+│   ├── tuple_slicing.py         # Extract tuple sections.
+│   ├── packing.py               # Store multiple values together.
+│   └── unpacking.py             # Assign tuple values to variables.
+│
+├── 08_Sets/
+│   ├── create_set.py            # Store unique values only.
+│   ├── add_remove.py            # Modify set contents.
+│   ├── union.py                 # Combine multiple sets.
+│   ├── intersection.py          # Find common elements.
+│   ├── difference.py            # Find unique elements.
+│   └── symmetric_difference.py # Find non-overlapping elements.
+│
+├── 09_Dictionaries/
+│   ├── create_dictionary.py     # Store key-value pairs.
+│   ├── access_values.py         # Retrieve values using keys.
+│   ├── update_values.py         # Modify existing data.
+│   ├── add_delete_keys.py       # Add or remove entries.
+│   ├── dictionary_methods.py    # Explore useful dictionary functions.
+│   └── nested_dictionary.py     # Store dictionaries within dictionaries.
+│
+├── 10_Functions/
+│   ├── basic_functions.py       # Create reusable blocks of code.
+│   ├── parameters.py            # Pass data into functions.
+│   ├── return_values.py         # Send data back from functions.
+│   ├── default_arguments.py     # Use default parameter values.
+│   ├── keyword_arguments.py     # Pass arguments by name.
+│   ├── lambda_functions.py      # Create small anonymous functions.
+│   ├── recursion.py             # Functions calling themselves.
+│   ├── args.py                  # Handle unlimited positional arguments.
+│   └── kwargs.py                # Handle unlimited keyword arguments.
+│
+├── 11_Exception_Handling/
+│   ├── try_except.py            # Catch and handle runtime errors.
+│   ├── else_block.py            # Run code when no error occurs.
+│   ├── finally_block.py         # Execute cleanup code always.
+│   ├── raise_exception.py       # Trigger custom errors manually.
+│   └── custom_exceptions.py     # Create your own exception types.
+│
+├── 12_File_Handling/
+│   ├── read_file.py             # Read data from files.
+│   ├── write_file.py            # Write data into files.
+│   ├── append_file.py           # Add content without overwriting.
+│   ├── with_statement.py        # Safely manage file resources.
+│   ├── csv_files.py             # Work with CSV data.
+│   └── json_files.py            # Read and write JSON data.
+│
+├── 13_OOP/
+│   ├── classes.py               # Define blueprints for objects.
+│   ├── objects.py               # Create instances of classes.
+│   ├── constructors.py          # Initialize object data.
+│   ├── attributes_methods.py    # Store data and behaviors.
+│   ├── inheritance.py           # Reuse functionality from parent classes.
+│   ├── polymorphism.py          # Use one interface for many forms.
+│   ├── encapsulation.py         # Protect internal object data.
+│   ├── abstraction.py           # Hide unnecessary implementation details.
+│   └── static_class_methods.py  # Learn special class-level methods.
+│
+├── 14_Modules_And_Packages/
+│   ├── import_module.py         # Import existing modules.
+│   ├── custom_module.py         # Create your own reusable modules.
+│   ├── packages.py             # Organize modules into packages.
+│   ├── name_main.py            # Understand __name__ and execution flow.
+│   └── pip_basics.py           # Install and manage external packages.
+│
+├── 15_Intermediate_Python/
+│   ├── iterators.py            # Iterate over data efficiently.
+│   ├── generators.py           # Generate values on demand.
+│   ├── decorators.py           # Modify function behavior dynamically.
+│   ├── context_managers.py     # Manage resources safely.
+│   ├── enumerate.py            # Track index and value together.
+│   ├── zip_function.py         # Combine multiple iterables.
+│   ├── map_function.py         # Apply functions to collections.
+│   ├── filter_function.py      # Select items matching conditions.
+│   ├── reduce_function.py      # Reduce data into a single value.
+│   └── dataclasses.py          # Simplify data-oriented classes.
+│
+├── 16_APIs/
+│   ├── http_basics.py          # Understand client-server communication.
+│   ├── get_request.py          # Retrieve data from APIs.
+│   ├── post_request.py         # Send data to APIs.
+│   ├── put_request.py          # Update remote resources.
+│   ├── delete_request.py       # Remove remote resources.
+│   ├── json_handling.py        # Process JSON responses.
+│   └── authentication.py       # Secure API access with tokens and keys.
+│
+├── 17_Databases/
+│   ├── sqlite_setup.py         # Create and connect databases.
+│   ├── create_table.py         # Define data structures.
+│   ├── insert_data.py          # Store records in tables.
+│   ├── read_data.py            # Retrieve records from tables.
+│   ├── update_data.py          # Modify stored information.
+│   ├── delete_data.py          # Remove unwanted records.
+│   └── crud_project.py         # Combine Create, Read, Update, Delete.
+│
+├── 18_Automation/
+│   ├── os_module.py            # Interact with the operating system.
+│   ├── pathlib_module.py       # Work with file paths cleanly.
+│   ├── shutil_module.py        # Copy and move files automatically.
+│   ├── datetime_module.py      # Handle dates and times.
+│   ├── file_organizer.py       # Automatically sort files into folders.
+│   ├── bulk_renamer.py         # Rename many files at once.
+│   ├── report_generator.py     # Create automated reports.
+│   └── automation_project.py   # Combine multiple automation concepts.
+│
+└── 19_Projects/
+    ├── calculator.py           # Build a basic calculator application.
+    ├── quiz_app.py             # Create an interactive quiz program.
+    ├── todo_app.py             # Manage tasks using Python.
+    ├── expense_tracker.py      # Track income and expenses.
+    ├── contact_book.py         # Store and manage contacts.
+    ├── password_manager.py     # Securely store credentials.
+    ├── weather_app.py          # Fetch live weather using APIs.
+    ├── file_manager.py         # Manage files and folders.
+    ├── student_management.py   # Handle student records.
+    └── final_capstone.py       # Combine everything into a major project.
