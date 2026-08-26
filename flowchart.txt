@@ -84,8 +84,9 @@ python-journey/
 │   ├── recursion.py             # Functions calling themselves.
 │   ├── args.py                  # Handle unlimited positional arguments.
 │   └── kwargs.py                # Handle unlimited keyword arguments.
-│
-├── 11_Exception_Handling/
+
+New Repo
+|-─ 11_Exception_Handling/
 │   ├── try_except.py            # Catch and handle runtime errors.
 │   ├── else_block.py            # Run code when no error occurs.
 │   ├── finally_block.py         # Execute cleanup code always.
